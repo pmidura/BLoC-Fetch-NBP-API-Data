@@ -1,0 +1,42 @@
+name: bloc_fetch_api_data
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Open container animation
+  animations: ^2.0.7
+
+  # Poland localization
+  flutter_localizations:
+    sdk: flutter
+
+  # FL Chart
+  fl_chart: ^0.40.5
+  
+  # Gradient progress indicator
+  gradient_progress_indicator: ^1.0.0+5
+
+  # DateFormat
+  intl: ^0.17.0
+
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.2
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
